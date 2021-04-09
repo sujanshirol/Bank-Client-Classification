@@ -17,3 +17,6 @@ The classification of clients applying for loan into bad clients and good client
 ## Other techniques
 1. SMOTE data balancing
 2. RFE feature selection
+
+# Conclusion
+As per the table above XG Boost model gives the best results with an AUC score of 97% and an accuracy score of 92% . However, scores are not only the criteria to decide the best model we also have to take overfitting/underfitting into consideration. XGBoost of course gives best score but is slightly overfitted. Stacked model being 1% less accurate is better balanced than XGBoost and hence, best model is concluded as Stacked model with final estimator as XGBoost.
