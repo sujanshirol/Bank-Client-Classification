@@ -17,6 +17,7 @@ The classification of clients applying for loan into bad clients and good client
 ## Other techniques
 1. SMOTE data balancing
 2. RFE feature selection
+3. Grid Search for hyperparameter tuning
 
 ## Scoring matrics used
 1. AUC Score
